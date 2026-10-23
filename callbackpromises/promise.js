@@ -43,7 +43,7 @@ let prom2=new Promise((resolve,reject)=>{
 
 //ab 3 promise.all jo phle chl jye uska anser 26:00
 //ab ye agla wala 2 ke baad wala
-let p3=Promise.all([prom1,prom2])
+let p3=Promise.all([prom1,prom2])//agr hme value chiaye reject accept se fark nai hto promise.allSettled
 p3.then((a)=>{
     console.log(a)
 
